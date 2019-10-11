@@ -7,6 +7,7 @@ img {
 }
 li {
     list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     width: 180px;
     position: relative;
@@ -91,6 +92,10 @@ button {
     height: 40px;
     bottom: 0px;
     position: absolute;
+    transition-duration: 350ms;
+}
+button:hover {
+    background-color: white;
 }
 footer {
     background: #DDD;
